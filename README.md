@@ -10,5 +10,5 @@ Creating a Shopify Partners Store
 
 
 ```bash
-    theme get --password=<Password> --store=<Shopify Store URL> --themeid=<theme number>
+theme get --password=<Password> --store=<Shopify Store URL> --themeid=<theme number>
 ```
