@@ -54,15 +54,16 @@ OR BELOW
  <!-- CSS
 ==================================`================ -->
 ```
+In the CSS stylesheet that was created and located in assets folder, write provide the custom CSS to override the provide Shopify theme. 
 
 -Run on the terminal/command prompt to see the changes added. You may need to refresh the browser everytime new a new line of CSS. 
 ```bash
 theme watch --allow-live
 ```
--Some Vscode extensions may add some unexpedted code to one of the Shopify pages (e.g. '{'). If that occurs consider disabling the extension
+
+-Some Vscode extensions may add some unexpedted code to one of the Shopify pages (e.g. '{'). If that occurs consider disabling the extension for Liquid
 
 -If there are any changes to Shopify, or if these steps that do not work, or if you have any suggestions, please feel to contact me at daniel.ek.park@gmail.com
-
 
 <!--
 Run on the command line, when you have the following: 
