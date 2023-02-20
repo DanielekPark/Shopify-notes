@@ -56,7 +56,7 @@ OR BELOW
 ```
 In the CSS stylesheet that was created and located in assets folder, write provide the custom CSS to override the provide Shopify theme. 
 
--Run on the terminal/command prompt to see the changes added. You may need to refresh the browser everytime new a new line of CSS. 
+-Run on the terminal/command prompt to see the changes added. You may need to refresh the browser everytime new a new line of CSS is added. 
 ```bash
 theme watch --allow-live
 ```
