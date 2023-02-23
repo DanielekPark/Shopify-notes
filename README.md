@@ -61,7 +61,7 @@ In the CSS stylesheet that was created and located in assets folder, write provi
 theme watch --allow-live
 ```
 
--Some Vscode extensions may add some unexpedted code to one of the Shopify pages (e.g. '{'). If that occurs consider disabling the extension for Liquid
+-Some Vscode extensions may add some unexpected code to one of the Shopify pages (e.g. '{'). If that occurs consider disabling the extension for Liquid
 
 -If there are any changes to Shopify, or if these steps that do not work, or if you have any suggestions, please feel to contact me at daniel.ek.park@gmail.com
 
