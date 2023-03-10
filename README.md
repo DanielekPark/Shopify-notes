@@ -61,20 +61,28 @@ In the CSS stylesheet that was created and located in assets folder, write provi
 theme watch --allow-live
 ```
 
--Some Vscode extensions may add some unexpected code to one of the Shopify pages (e.g. '{'). If that occurs consider disabling the extension for Liquid
+## Using Shopify theme init
+Login to your account and get the name of your Shopify store
+shopify theme dev --store https://yourshopifystore.myshopify.com/
+
+Next run
+```bash
+shopify theme init
+```
+
+If a local repo has been created through and there's an error try running
+```bash
+SHOPIFY_CLI_BUNDLED_THEME_CLI=true shopify theme dev
+```
 
 -If there are any changes to Shopify, or if these steps that do not work, or if you have any suggestions, please feel to contact me at daniel.ek.park@gmail.com
 
 <!--
+https://shopify.dev/docs/themes/tools/cli
 Run on the command line, when you have the following: 
 -Password
 -Shopify Store URL
 -theme id
 ```bash
 theme get --password=<Password> --store=<Shopify Store URL> --themeid=<theme number>
-
-
-``` -If there's more than 1 person working on the partner site and you wish to pull down the latest changes run: 
-```bash
-shopify theme pull
-``` -->
+-->
